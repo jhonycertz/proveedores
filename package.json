@@ -1,0 +1,44 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "npm run development -- --watch",
+    "watch-poll": "npm run watch -- --watch-poll",
+    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "postinstall": "npm run prod"
+  },
+  "devDependencies": {
+    "axios": "^0.18",
+    "bootstrap": "^4.0.0",
+    "popper.js": "^1.12",
+    "cross-env": "^5.1",
+    "jquery": "^3.2",
+    "laravel-mix": "^2.0",
+    "lodash": "^4.17.4",
+    "vue": "^2.5.7"
+  },
+  "dependencies": {
+    "animate.css": "^3.6.1",
+    "bootstrap-vue": "^2.0.0-rc.11",
+    "chart.js": "^2.7.3",
+    "flag-icon-css": "^3.0.0",
+    "font-awesome": "^4.7.0",
+    "is-url-external": "^1.0.3",
+    "moment": "^2.22.2",
+    "normalize.css": "^8.0.0",
+    "owl.carousel": "^2.3.4",
+    "pngquant-bin": "^5.0.1",
+    "sweetalert": "^2.1.0",
+    "vue-chartkick": "^0.5.0",
+    "vue-event-calendar": "^1.5.2",
+    "vue-router": "^3.0.1",
+    "vue-simple-calendar": "^4.1.0",
+    "vuejs-datepicker": "^1.5.3",
+    "vuejs-dialog": "^0.9.0",
+    "vuex": "^3.0.1",
+    "watch": "^1.0.2"
+  }
+}
