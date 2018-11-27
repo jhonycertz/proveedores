@@ -1,0 +1,1 @@
+<p>Muchas Gracias por Aplicar. En los próximos días lo estaremos contactando</p>

@@ -1,0 +1,1 @@
+<p>Se ha registrado un nuevo aspirante de tipo <?php echo e($data->company_type_name); ?>.</p>
